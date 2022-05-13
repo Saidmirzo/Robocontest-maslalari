@@ -24,9 +24,8 @@ void main(List<String> args) {
     if (son1 % tubSonlar[w] == 0) {
       print(tubSonlar[w]);
       son1 ~/= tubSonlar[w];
-      son1%tubSonlar[w]
+      son1 % tubSonlar[w];
     } else {
-      
       print('object');
     }
   }
